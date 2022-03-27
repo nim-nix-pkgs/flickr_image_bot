@@ -11,6 +11,7 @@
   inputs.src-flickr_image_bot-master.ref   = "refs/heads/master";
   inputs.src-flickr_image_bot-master.owner = "snus-kin";
   inputs.src-flickr_image_bot-master.repo  = "flickr-image-bot";
+  inputs.src-flickr_image_bot-master.dir   = "";
   inputs.src-flickr_image_bot-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
