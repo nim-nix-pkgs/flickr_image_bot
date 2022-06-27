@@ -21,15 +21,45 @@
         "type": "github"
       }
     },
+    "flickr_image_bot-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-flickr_image_bot-master": "src-flickr_image_bot-master",
+        "twitter": "twitter"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1656283675,
+        "narHash": "sha256-PDv40wz9EiLk5B8x+eg1c/JgOemwq8naNT4vosRuABQ=",
+        "owner": "nim-nix-pkgs",
+        "repo": "flickr_image_bot",
+        "rev": "f98fef2bd4017ca21e642cb59a9ed0032209489b",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "flickr_image_bot",
+        "type": "github"
+      }
+    },
     "hmac": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "twitter",
           "flakeNimbleLib"
         ],
         "nimcrypto": "nimcrypto",
         "nimsha2": "nimsha2",
         "nixpkgs": [
+          "flickr_image_bot-master",
           "twitter",
           "nixpkgs"
         ],
@@ -56,11 +86,13 @@
     "isaac": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "twitter",
           "uuids",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "flickr_image_bot-master",
           "twitter",
           "uuids",
           "nixpkgs"
@@ -87,11 +119,13 @@
     "nimcrypto": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "twitter",
           "hmac",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "flickr_image_bot-master",
           "twitter",
           "hmac",
           "nixpkgs"
@@ -118,11 +152,13 @@
     "nimsha2": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "twitter",
           "hmac",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "flickr_image_bot-master",
           "twitter",
           "hmac",
           "nixpkgs"
@@ -148,8 +184,9 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
-        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
         "type": "path"
       },
       "original": {
@@ -160,19 +197,20 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-flickr_image_bot-master": "src-flickr_image_bot-master",
-        "twitter": "twitter"
+        "flickr_image_bot-master": "flickr_image_bot-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "sha1": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "twitter",
           "hmac",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "flickr_image_bot-master",
           "twitter",
           "hmac",
           "nixpkgs"
@@ -335,10 +373,12 @@
     "twitter": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "flakeNimbleLib"
         ],
         "hmac": "hmac",
         "nixpkgs": [
+          "flickr_image_bot-master",
           "nixpkgs"
         ],
         "src-twitter-2_0_0": "src-twitter-2_0_0",
@@ -364,11 +404,13 @@
     "uuids": {
       "inputs": {
         "flakeNimbleLib": [
+          "flickr_image_bot-master",
           "twitter",
           "flakeNimbleLib"
         ],
         "isaac": "isaac",
         "nixpkgs": [
+          "flickr_image_bot-master",
           "twitter",
           "nixpkgs"
         ],
